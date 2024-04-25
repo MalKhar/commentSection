@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+}
+
+body {
+  padding: 20px 40px;
+  background-color: #ddd;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 2rem;
+  font-style: normal;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: inherit;
+  font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+  }
+
+.sentCard {
+    background-color: #fff;
+    display: flex;
+    border-radius: 1rem;
+    padding: 10px 1rem 10px 0px ;
+    width: auto;
+  }
+  
+.score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 100px;
+  height: auto;
+  font-weight: bolder;
+}
+
+.score p:hover{
+    cursor: default;
+}
+.btnArea {
+  background-color: #e8e8e8;
+  width: 32px;
+  height: 80px;
+  border-radius: 0.5rem;
+  align-content: space-around;
+  text-align: center;
+  font-size: 0.8rem;
+  color: hsl(211, 10%, 45%);
+}
+
+.btnArea button {
+  font-size: 1.1rem;
+  color: hsl(211, 10%, 45%);
+}
+
+.contentBox {
+  display: inherit;
+  flex-wrap: wrap;
+  width: fit-content;
+}
+.userAvatar {
+  display: inherit;
+  /* width: 100%; */
+  align-items: center;
+}
+
+.profilePic {
+  max-width: 40px;
+}
+
+.name {
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+.postedAt {
+  color: #ddd;
+  margin-left: 28px;
+}
+
+.content {
+    color: #888;
+  padding-top: 10px;
+}
